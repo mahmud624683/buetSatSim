@@ -296,4 +296,3 @@ def parser(file_path,lib_path):
     with open(file_path.replace(".","_")+'.json', 'w') as fp:
             json.dump(output_graph, fp)
     
-    
